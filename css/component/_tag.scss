@@ -1,0 +1,11 @@
+@use "../global" as *;
+.c-tag{
+  padding: 6px 12px;
+  display: inline-block;
+  background-color: $color-blue;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 25px;
+  font-size: 16px;
+  margin-left: 8px;
+}
