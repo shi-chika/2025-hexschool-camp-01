@@ -58,6 +58,12 @@ table {
   border-spacing: 0;
 }
 
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
 *,
 ::before,
 ::after {
@@ -71,7 +77,8 @@ img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 a {
@@ -83,10 +90,9 @@ a:hover {
   opacity: 0.8;
 }
 
-.container {
-  max-width: 1320px;
-  margin: 0 auto;
-  padding: 0 12px;
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  color: #000;
 }
 
 .c-tag {
@@ -189,7 +195,7 @@ a:hover {
   background-color: white;
   outline: none;
 }
-.p-blog-article__search-input:-ms-input-placeholder {
+.p-blog-article__search-input::-moz-placeholder {
   color: #4B4B4B;
   font-size: 16px;
   font-weight: 500;
